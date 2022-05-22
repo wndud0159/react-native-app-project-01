@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5B965D52FF048F94F22B5258 /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3D4651932CF29C500F0B6C /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a */; };
+		3A4FDE2CF3964587EFE6B7B3 /* libPods-WndudDeliveryApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED59D8616BC5EEAB1DE16B /* libPods-WndudDeliveryApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		FF680B4D8AD377D7DDABE6BE /* libPods-WndudDeliveryApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF6036F32123B7D308D96FC /* libPods-WndudDeliveryApp.a */; };
+		C7066FAE4B00155B45FDEF8A /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DC7FDD5F2E48AA403372B7 /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* WndudDeliveryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WndudDeliveryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* WndudDeliveryAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WndudDeliveryAppTests.m; sourceTree = "<group>"; };
-		07F04C31E8A4D9D7DBFDE027 /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig"; path = "Target Support Files/Pods-WndudDeliveryApp-WndudDeliveryAppTests/Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* WndudDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WndudDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WndudDeliveryApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = WndudDeliveryApp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WndudDeliveryApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WndudDeliveryApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WndudDeliveryApp/main.m; sourceTree = "<group>"; };
-		3BF6036F32123B7D308D96FC /* libPods-WndudDeliveryApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WndudDeliveryApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A3D4651932CF29C500F0B6C /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WndudDeliveryApp-WndudDeliveryAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ED59D8616BC5EEAB1DE16B /* libPods-WndudDeliveryApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WndudDeliveryApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4441EAD993325D2B1521E15F /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WndudDeliveryApp-WndudDeliveryAppTests/Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7648E7EFDC1B45AE744B38C1 /* Pods-WndudDeliveryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WndudDeliveryApp.release.xcconfig"; path = "Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WndudDeliveryApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B26B85103931A093EB2D05DC /* Pods-WndudDeliveryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WndudDeliveryApp.debug.xcconfig"; path = "Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp.debug.xcconfig"; sourceTree = "<group>"; };
-		C3998745A459E84BAD35A792 /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WndudDeliveryApp-WndudDeliveryAppTests/Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E2B9636E4589F982DA66F24F /* Pods-WndudDeliveryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WndudDeliveryApp.release.xcconfig"; path = "Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp.release.xcconfig"; sourceTree = "<group>"; };
+		C6DC7FDD5F2E48AA403372B7 /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WndudDeliveryApp-WndudDeliveryAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51677429BD649D2D1ACCCD3 /* Pods-WndudDeliveryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WndudDeliveryApp.debug.xcconfig"; path = "Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F494D07455FC7C89E0FD5E2D /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig"; path = "Target Support Files/Pods-WndudDeliveryApp-WndudDeliveryAppTests/Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B965D52FF048F94F22B5258 /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a in Frameworks */,
+				C7066FAE4B00155B45FDEF8A /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF680B4D8AD377D7DDABE6BE /* libPods-WndudDeliveryApp.a in Frameworks */,
+				3A4FDE2CF3964587EFE6B7B3 /* libPods-WndudDeliveryApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				3BF6036F32123B7D308D96FC /* libPods-WndudDeliveryApp.a */,
-				7A3D4651932CF29C500F0B6C /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a */,
+				33ED59D8616BC5EEAB1DE16B /* libPods-WndudDeliveryApp.a */,
+				C6DC7FDD5F2E48AA403372B7 /* libPods-WndudDeliveryApp-WndudDeliveryAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B26B85103931A093EB2D05DC /* Pods-WndudDeliveryApp.debug.xcconfig */,
-				E2B9636E4589F982DA66F24F /* Pods-WndudDeliveryApp.release.xcconfig */,
-				C3998745A459E84BAD35A792 /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig */,
-				07F04C31E8A4D9D7DBFDE027 /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig */,
+				D51677429BD649D2D1ACCCD3 /* Pods-WndudDeliveryApp.debug.xcconfig */,
+				7648E7EFDC1B45AE744B38C1 /* Pods-WndudDeliveryApp.release.xcconfig */,
+				4441EAD993325D2B1521E15F /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig */,
+				F494D07455FC7C89E0FD5E2D /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,11 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WndudDeliveryAppTests" */;
 			buildPhases = (
-				B0A91108C5653DCF3A27B368 /* [CP] Check Pods Manifest.lock */,
+				A5C8F895159440202F55600D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				3C43F89466334F86F4346286 /* [CP] Copy Pods Resources */,
+				A27B3B4AE8DF16470D2F58C2 /* [CP] Embed Pods Frameworks */,
+				9D27765AC070E00C6270A6C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,13 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WndudDeliveryApp" */;
 			buildPhases = (
-				C6490836CF9CC16652B7764A /* [CP] Check Pods Manifest.lock */,
+				52C5B90A3AAF2A23F0E46AC9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3FC1C9689124CA0C756924FE /* [CP] Copy Pods Resources */,
+				C504AFBEAD8403442EC757A1 /* [CP] Embed Pods Frameworks */,
+				AFF050D86D49EA0EC76105B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,7 +264,29 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		3C43F89466334F86F4346286 /* [CP] Copy Pods Resources */ = {
+		52C5B90A3AAF2A23F0E46AC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WndudDeliveryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D27765AC070E00C6270A6C4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,24 +303,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp-WndudDeliveryAppTests/Pods-WndudDeliveryApp-WndudDeliveryAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3FC1C9689124CA0C756924FE /* [CP] Copy Pods Resources */ = {
+		A27B3B4AE8DF16470D2F58C2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp-WndudDeliveryAppTests/Pods-WndudDeliveryApp-WndudDeliveryAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp-WndudDeliveryAppTests/Pods-WndudDeliveryApp-WndudDeliveryAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp-WndudDeliveryAppTests/Pods-WndudDeliveryApp-WndudDeliveryAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B0A91108C5653DCF3A27B368 /* [CP] Check Pods Manifest.lock */ = {
+		A5C8F895159440202F55600D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,26 +342,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C6490836CF9CC16652B7764A /* [CP] Check Pods Manifest.lock */ = {
+		AFF050D86D49EA0EC76105B6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WndudDeliveryApp-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C504AFBEAD8403442EC757A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WndudDeliveryApp/Pods-WndudDeliveryApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -392,7 +428,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3998745A459E84BAD35A792 /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig */;
+			baseConfigurationReference = 4441EAD993325D2B1521E15F /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -419,7 +455,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07F04C31E8A4D9D7DBFDE027 /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig */;
+			baseConfigurationReference = F494D07455FC7C89E0FD5E2D /* Pods-WndudDeliveryApp-WndudDeliveryAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -443,12 +479,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B26B85103931A093EB2D05DC /* Pods-WndudDeliveryApp.debug.xcconfig */;
+			baseConfigurationReference = D51677429BD649D2D1ACCCD3 /* Pods-WndudDeliveryApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D964HS83YY;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = WndudDeliveryApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,7 +497,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wnduddeliveryapp;
 				PRODUCT_NAME = WndudDeliveryApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -469,11 +507,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2B9636E4589F982DA66F24F /* Pods-WndudDeliveryApp.release.xcconfig */;
+			baseConfigurationReference = 7648E7EFDC1B45AE744B38C1 /* Pods-WndudDeliveryApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D964HS83YY;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = WndudDeliveryApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,7 +524,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wnduddeliveryapp;
 				PRODUCT_NAME = WndudDeliveryApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -495,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -566,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
